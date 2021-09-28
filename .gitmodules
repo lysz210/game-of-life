@@ -1,0 +1,6 @@
+[submodule "game-of-life-client"]
+	path = game-of-life-client
+	url = git@github.com:lysz210/game-of-life-client.git
+[submodule "game-of-life-server"]
+	path = game-of-life-server
+	url = git@github.com:lysz210/game-of-life-server.git
