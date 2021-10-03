@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server.Dockerfile
+    ports:
+      - "8080:8080"
+    entrypoint:
+      - "java"
+      - "-jar"
+      - "/app/gol-application.jar"
+  client:
+    build:
+      context: .
+      dockerfile: client.Dockerfile
+    ports:
+     - "3000:3000"
+    entrypoint:
+      - "yarn"
+      - "start"

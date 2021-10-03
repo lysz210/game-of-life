@@ -25,3 +25,25 @@ The project is composed of this main container and 2 submodules:
 
 ### Infinite Universe
 To make the universe virtually infinite the server will handle just cell based processing to eliminate the request as the limit.
+
+# start the project
+
+First clone this project with recursively to get the serve and client
+
+```bash
+git clone --recursive <this project url>
+```
+
+## Docker compose (prefered)
+With docker compose you
+```
+docker-compose up
+```
+
+## Separately
+The server il a Gradle project you have to build it and the run the generated jar
+
+The client is a node project you can run it with Yarn or Npm
+
+## Open the page
+The client is exposed in localhost with port 3000 anche server with 8080. These are the defaults from Nuxtjs and Spring-boot respectivelyl
