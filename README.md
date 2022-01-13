@@ -1,4 +1,4 @@
-# Conway's Game of Life.
+# Conway's Game of Life. 
 
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square
 cells, each of which is in one of two possible states, alive or dead, (or populated and
